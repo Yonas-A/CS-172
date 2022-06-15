@@ -1,0 +1,154 @@
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  width: 100%;
+  background-color: #e6ecf0;
+  margin: 5px 0 10px 0;
+}
+
+/* -------------------------------------------------------- */
+/*                  navbar or header style                  */
+/* -------------------------------------------------------- */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.search--position {
+  position: absolute;
+  right: 100px;
+  right: float;
+  display: flex;
+  min-width: 500px;
+}
+#searchBar {
+width: 325px;
+}
+
+#query-field {
+  position: absolute;
+  right: 100px;
+  right: float;
+  display: flex;
+}
+
+#field-select {
+  width: 100px;
+  height: auto;
+}
+
+
+/* container for blocks of tweets  */
+.tweet-block {
+  border-bottom: 1px solid #e6ecf0;
+  min-height: 51px;
+}
+
+.tweet--text__area {
+  box-sizing: content-box;
+  min-height: 51px;
+  width: 435px;
+  padding: 0px 0px 0px 0px;
+  margin-right: 0%;
+}
+
+.tweet-info {
+  color: rgb(0, 0, 0);
+  background-color: rgb(6, 137, 244);
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.align-right {
+  margin-left: 10px;
+}
+
+.align-left {
+  float: left;
+  margin: 4px;
+  display: inline;
+}
+
+.align-bottom {
+  margin-bottom: 10px;
+}
+.align-clear {
+  clear: both;
+}
+
+/* ------------------------------------------------------------------- */
+/*            wrapper style to wrap around the content                 */
+/* ------------------------------------------------------------------- */
+#wrapper {
+  width: 100%;
+  max-width: 1190px;
+  height: 760px;
+  height: auto;
+  margin: 56px auto;
+}
+
+/* ------------------------------------------------------------------- */
+/*                         middle content style                        */
+/* ------------------------------------------------------------------- */
+#middle-wrapper {
+  position: absolute;
+  box-sizing: content-box;
+  top: 60px;
+  left: 380px;
+  width: 580px;
+  min-height: 580px;
+  height: float;
+  padding: 20px;
+  margin: 5px;
+  background-color: white;
+}
+
+/* ------------------------------------------------------------------- */
+/*                         Search Result                               */
+/* ------------------------------------------------------------------- */
+#result_search {
+    margin-left: 5%;
+    max-width: 90%;
+}
+
+#result_name_date {
+    padding-top: .1px;
+    background-color: #0096c7;
+    min-width: 90%;
+}
+
+
+
+/** ----------- ----------- ----------- ----------- ----------- */
+/** -----------  clearing search bar with x button  ----------- */
+/** ----------- ----------- ----------- ----------- ----------- */
+
+input[type='search'] {
+  border: 1px solid gray;
+  padding: 0.2em 0.4em;
+  border-radius: 0.2em;
+}
+
+input[type='search'].searchBar {
+  background: #fff;
+  color: #222;
+}
+
+input[type='search']::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  height: 1em;
+  width: 1em;
+  border-radius: 50em;
+  background: url(https://pro.fontawesome.com/releases/v5.10.0/svgs/solid/times-circle.svg)
+    no-repeat 50% 50%;
+  background-size: contain;
+  opacity: 0;
+  pointer-events: none;
+}
+
+input[type='search']:focus::-webkit-search-cancel-button {
+  opacity: 0.3;
+  pointer-events: all;
+}
