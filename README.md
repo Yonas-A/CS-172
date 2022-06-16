@@ -1,4 +1,4 @@
-# CS 172 Project Information Retrieval
+# CS 172 Information Retrieval Projects
 
 ## Description
 
